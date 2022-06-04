@@ -5,4 +5,4 @@ def home(request):
     context = {
         'items': Item.objects.all()
     }
-    return render(request, "base\home.html", context)
+    return render(request, "base/home.html", context)
