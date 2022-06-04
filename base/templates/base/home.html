@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,16 +13,17 @@
 
     {% block content %}
 
-    <div class="container text-dark">
+    <div class="container text-light">
         <div class="card-columns">
             {% for item in items%}
-                <div class="card p-3">
+                <div style="background-color: rgba(69, 32, 15, 0.382);" class="card p-4">
                     <img src="{{ item.image.url }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ item.name }}</h5>
                         <p class="card-text">Quantity: {{ item.qnt }}</p>
                         <p class="card-text">Item size: {{ item.size }}</p>
                         <p class="card-text">Price: ${{ item.price }}</p>
+                        <a href="#" style="background-color: rgba(159, 63, 63, 0); border-color: beige; border-width: 3px;" class="btn text-light">Purchase</a>
                     </div>
                 </div>
             {% endfor %}
