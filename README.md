@@ -41,6 +41,12 @@ A simple chatroom, where you can register as a user, log into account, send mess
 ### Log Out Page
 <img src="readme_only_img/logout.png" width="700" alt="Log Out Page"/>
 
+### About Page
+<img src="readme_only_img/about.png" width="700" alt="About Page"/>
+
+### Contacts Page
+<img src="readme_only_img/contacts.png" width="700" alt="Contacts Page"/>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <div id="erd"></div>
