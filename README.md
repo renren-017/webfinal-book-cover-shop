@@ -23,6 +23,9 @@ Deployed at https://bookcoverswebsite.herokuapp.com/
 - about and copyright section added
 - authorization page
 - registration page
+- order/main page
+
+#
 
 ## About The Project
 A simple chatroom, where you can register as a user, log into account, send messages and log back out whenever you want.
@@ -51,11 +54,15 @@ A simple chatroom, where you can register as a user, log into account, send mess
 
 <div id="erd"></div>
 
-### ERD
-The user table on the right is the default table that is maintained by Django itself.
-My message table only contains id, username, content and timestamp of the message.
+#
 
-<img src="img/erd.png" width="400" alt="erd_image"/>
+## ERD
+
+The User table is maintained by Django itself and is not connected to the Item table.
+
+<img src="readme_only_img/erd.png" width="400" alt="erd_image"/>
+
+#
 
 ## Built With
 * [Django](https://www.djangoproject.com/)
