@@ -6,3 +6,10 @@ def home(request):
         'items': Item.objects.all()
     }
     return render(request, "base/home.html", context)
+
+def about(request):
+    return render(request, "base/about.html")
+
+
+def contacts(request):
+    return render(request, "base/contacts.html")

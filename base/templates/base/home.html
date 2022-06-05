@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -14,9 +13,9 @@
     {% block content %}
 
     <div class="container text-light">
-        <div class="card-columns">
+        <div class="card-columns column-count">
             {% for item in items%}
-                <div style="background-color: rgba(69, 32, 15, 0.382);" class="card p-4">
+                <div style="background-color: rgba(61, 77, 83, 0.382); border-width: 0;" class="card p-4">
                     <img src="{{ item.image.url }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ item.name }}</h5>
